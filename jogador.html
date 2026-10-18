@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Meu Primeiro joguinho</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="estilo/stylejokepo.css" type="text/css"/>
+	</head>
+	<body>
+        
+        
+               <table align="center">
+			<tr>
+				<td><a href="project.html">Projetos</a></td>
+				<td><a href="cursos.html">Cursos</a></td>
+			</tr>
+       			 </table>  
+          
+		<h1>Jogo do Pedra, Papel e Tesoura</h1>
+		<p>Digite: 1-Pedra , 2-Papel , 3-Tesoura</p>
+		
+		<input type=button value="cor" id='fundo'/>
+		<a href=computador.html><input type=button value="computador"/></a>
+		
+		
+		<h4>Jogador 1</h4>
+		<input type=password id='player1' maxLength=1/>
+		<h4>Jogador 2</h4>
+		<input type=password id='player2' maxLength=1/><br><br>
+		<input type=submit id='confirma'value="Confirmar"/>
+	
+		
+		<p>Pontos Jogador 1:  <strong id='contador1'>0</strong></p>
+		<p>Pontos Jogador 2:  <strong id='contador3'>0</strong></p>
+		<p>Quantidade Empates:  <strong id='contador2'>0</strong></p>
+		<script src='js/scriptJogador.js'></script>
+                            
+	</body>
+</html>
